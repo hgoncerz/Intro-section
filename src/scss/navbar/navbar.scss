@@ -1,0 +1,24 @@
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  justify-items: center;
+  margin-top: 15px;
+
+  a {
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+  }
+  h1 {
+    font-size: 30px;
+  }
+
+  &__login {
+    grid-column: 11 / span 1;
+  }
+  &__register {
+    border: 1px solid black;
+    padding: 8px 12px;
+    border-radius: 10px;
+  }
+}
