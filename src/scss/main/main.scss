@@ -1,0 +1,26 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1300px;
+
+    &__text {
+      //   padding: 40px;
+
+      h1 {
+        font-size: 64px;
+        margin-top: 150px;
+      }
+    }
+    &__image {
+      padding: 40px;
+      & img {
+        width: 100%;
+        max-height: 600px;
+      }
+    }
+  }
+}
