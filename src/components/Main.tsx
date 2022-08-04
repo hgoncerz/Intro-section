@@ -2,6 +2,7 @@ import React from "react";
 
 import imgMain from "../images/image1.png";
 import "../scss/main/main.scss";
+import ImagesIcons from "./ImagesIcons";
 
 const Main: React.FC = () => {
   return (
@@ -19,6 +20,10 @@ const Main: React.FC = () => {
           </p>
 
           <button>Learn more</button>
+
+          <div className="wrap__container__text__last">
+            <ImagesIcons />
+          </div>
         </div>
         <div className="wrap__container__image">
           <img src={imgMain} alt="hero-image" />
