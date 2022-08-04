@@ -1,0 +1,17 @@
+.dropDownFeature {
+  &__list {
+    position: absolute;
+    background: red;
+    margin-top: 10px;
+    height: 150px;
+    width: 110px;
+
+    ul {
+      text-decoration: none;
+      list-style-type: none;
+    }
+    li {
+      padding: 5px;
+    }
+  }
+}
